@@ -144,7 +144,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-stages": {
+  "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --single-quote --write",
       "git add"
